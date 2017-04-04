@@ -1,18 +1,15 @@
 {
   "name": "todolist",
+  "authors": [
+    "Phil Freeman <paf31@cantab.net>"
+  ],
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
-    "output"
+    "bower_components"
   ],
   "dependencies": {
-    "purescript-prelude": "^2.5.0",
-    "purescript-console": "^2.0.0"
-  },
-  "devDependencies": {
-    "purescript-psci-support": "^2.0.0",
-    "purescript-thermite": "^0.12.0",
-    "react": "^0.13.0"
+    "purescript-thermite": "^3.2.1"
   }
 }
