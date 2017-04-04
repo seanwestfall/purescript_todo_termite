@@ -19226,7 +19226,7 @@ var taskList = (function () {
                                 return dispatch(new SetFilter(f));
                             }) ])([ React_DOM.text(Data_Filter.showFilter(f)) ]);
                         };
-                        return [ React_DOM["h1'"]([ React_DOM.text("todo list") ]), React_DOM.div([ React_DOM_Props.className("btn-group") ])(Data_Functor.map(Data_Functor.functorArray)(filter_)([ Data_Filter.All.value, Data_Filter.Active.value, Data_Filter.Completed.value ])) ];
+                        return [ React_DOM["h1'"]([ React_DOM.text("Pomodoro Timer") ]), React_DOM.div([ React_DOM_Props.className("btn-group") ])(Data_Functor.map(Data_Functor.functorArray)(filter_)([ Data_Filter.All.value, Data_Filter.Active.value, Data_Filter.Completed.value ])) ];
                     };
                 };
             };

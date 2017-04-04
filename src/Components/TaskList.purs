@@ -74,7 +74,7 @@ taskList = container $ fold
       where
         render :: T.Render TaskListState props TaskListAction
         render dispatch _ s _ =
-          [ R.h1' [ R.text "todo list" ]
+          [ R.h1' [ R.text "Pomodoro Timer" ]
           , R.div [ RP.className "btn-group" ] (map filter_ [ All, Active, Completed ])
           ]
           where
